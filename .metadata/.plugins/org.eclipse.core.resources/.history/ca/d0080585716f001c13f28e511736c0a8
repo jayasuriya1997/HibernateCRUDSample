@@ -1,0 +1,14 @@
+package com.banking.repository;
+
+
+
+import com.banking.entity.Bank;
+
+public class BankRepository extends n<Bank,Integer>  {
+
+	public void save(Bank bank) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

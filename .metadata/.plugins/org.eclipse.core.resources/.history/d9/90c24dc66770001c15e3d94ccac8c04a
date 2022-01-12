@@ -1,0 +1,17 @@
+package com.book;
+
+public class Book {
+
+	
+	int bid;
+	String bname;
+	int bpages;
+	
+	public Book(int bid, String bname, int bpages) {
+		this.bid = bid;
+		this.bname = bname;
+		this.bpages = bpages;
+	}
+	
+	
+}

@@ -1,0 +1,12 @@
+package com.truck.service;
+
+import com.truck.entity.Truck;
+
+public class TruckService {
+
+	public String addTruckDetails(Truck truck) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

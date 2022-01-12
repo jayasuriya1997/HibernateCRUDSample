@@ -1,0 +1,5 @@
+package com.truck.repository;
+
+public interface TruckRepository {
+
+}

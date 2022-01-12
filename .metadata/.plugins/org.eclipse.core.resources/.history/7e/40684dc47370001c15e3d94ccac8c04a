@@ -1,0 +1,23 @@
+package com.book;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class BookController {
+@GetMapping("/add")
+public  List<Book> AddBooks(){
+	ArrayList<Book> books=new ArrayList<>();
+	books.add(new Book(1, "maths", 100));
+	books.add(new Book(2, "science", 200));
+	books.add(new Book(3, "data science",150));
+	
+	return books;
+}
+	
+	
+	
+}

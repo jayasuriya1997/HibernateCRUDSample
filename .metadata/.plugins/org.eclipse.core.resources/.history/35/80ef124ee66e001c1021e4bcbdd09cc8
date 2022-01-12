@@ -1,0 +1,11 @@
+package com.student.dao;
+
+import com.student.entity.Student;
+
+public class StudentDao {
+
+	public String addStudentDetails(Student student) {
+		return null;
+	}
+
+}
