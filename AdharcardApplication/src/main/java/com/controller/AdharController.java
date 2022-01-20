@@ -13,7 +13,7 @@ public class AdharController {
 AdharService adharservice;
 public String addDetails(@RequestBody Adhar adhar) {
 	
-	return 
+	return  HI;
 }
 	
 }
