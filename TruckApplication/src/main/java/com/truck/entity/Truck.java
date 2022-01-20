@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @Entity
 public class Truck {
-@Autowired
+
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 private	int tid;

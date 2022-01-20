@@ -7,3 +7,4 @@ import com.truck.entity.Truck;
 public interface TruckRepository extends JpaRepository<Truck, Integer> {
 
 }
+

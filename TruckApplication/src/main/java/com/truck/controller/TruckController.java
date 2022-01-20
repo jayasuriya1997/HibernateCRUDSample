@@ -26,5 +26,6 @@ List<Truck>showDetails(){
 	return truckservice.showDetails();
 	
 }
+@getM
 	
 }

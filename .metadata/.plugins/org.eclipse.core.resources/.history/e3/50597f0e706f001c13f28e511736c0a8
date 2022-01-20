@@ -1,9 +1,0 @@
-package com.banking.entity;
-
-public class Bank {
-
-	int staffid;
-	String name;
-	int staffcontatcno;
-	
-}
